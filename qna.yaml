@@ -1,0 +1,21 @@
+---
+version: 2
+domain: Arts
+document:
+  repo: "example_repo"
+  commit: "abc123def456"
+  patterns:
+    - "color_patterns"
+task_description: Teach the model how to create color pallets.
+created_by: chill_accent
+seed_examples:
+  - question: "What colors would pair well with E4FDE1?"
+    answer: "8ACB88, 648381, 575761, FFBF46"
+  - question: "What color pallet would work with the color 464D77?"
+    answer: "36827F, F9DB6D, F4EDED, 877666"
+  - question: "Given the color 6CCFF6, create a color pallet."
+    answer: "D4D2A5, 928779, 5E5768, 3A445D"
+  - question: "I have the color F7B2B7 paint, what other colors match?"
+    answer: "F7717D, DE639A, 7F2982, 16001E"
+  - question: "Given the color 75F4F4, what colors go nicely with it?"
+    answer: "90E0F3, B8B3E9, D999B9, D17B88"
